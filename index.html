@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Links e Divisões</title>
+</head>
+<body>
+    <!--<div id="header"></div>
+    <div id="main"></div>
+    <div id="footer"></div>-->
+    <!--tag+id= tg#id <tag id="">-->
+    <header id="topo"> <!--Cabeçalho-->
+        <h1>DBO site!!</h1> <!--nome do cabeçalho-->
+        <nav> <!--links-->
+            <a href="#av">Atividades</a> <!--#av procura na pag a tag com o id, quando clicar ele vai para essa parte do codigo-->
+        </nav>
+    </header>
+    <main> <!--Conteudo principal, não é necessário mais de um main-->
+        <!--seções do site-->
+        <!--nomear pelo id quando aparece em só um lugar (usado só uma vez)-->
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article><!--Chamada de onde vai a noticia-->
+                <h3> <!--Titulo de noticia-->
+                    Breve atividade de noticia
+                </h3>
+                <p> <!--paragrafo com a noticia-->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vero asperiores, dolores ipsum laudantium rem natus modi exercitationem nam voluptatibus. Modi ad ipsa nisi cum quibusdam quisquam consequuntur eveniet iure?
+                </p>
+                <!--xxx.html=procura na pasta onde está o primeiro arquivo html-->
+                <!--http://...= link-->
+                <!--arq.zip/arq.rar/arq.word...=arquivo e tal-->
+                <a href="semmouse.html">Leia mais</a> <!--onde vai o link, arquivo, etc-->
+            </article>
+            <article>
+                <h3>Outra noticia</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi, nesciunt, aspernatur cupiditate aliquam possimus facere qui laudantium incidunt vero numquam? Atque quod voluptates inventore nostrum ab quam explicabo ipsam!
+                </p>
+                <a href="outra.html">Leia mais</a>
+            </article>
+            <article>
+                <h3>Mais uma</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro tenetur nesciunt omnis laborum, molestias sunt distinctio eveniet, laudantium quas non? Quaerat optio similique mollitia dolor ipsum quidem minima est.
+                </p>
+                <a href="maisuma.html">Leia mais</a>
+            </article>
+            <article>
+                <h3>Mais uma</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro tenetur nesciunt omnis laborum, molestias sunt distinctio eveniet, laudantium quas non? Quaerat optio similique mollitia dolor ipsum quidem minima est.
+                </p>
+                <a href="maisuma.html">Leia mais</a>
+            </article>
+            <article>
+                <h3>Mais uma</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro tenetur nesciunt omnis laborum, molestias sunt distinctio eveniet, laudantium quas non? Quaerat optio similique mollitia dolor ipsum quidem minima est.
+                </p>
+                <a href="maisuma.html">Leia mais</a>
+            </article>
+            <article>
+                <h3>Mais uma</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro tenetur nesciunt omnis laborum, molestias sunt distinctio eveniet, laudantium quas non? Quaerat optio similique mollitia dolor ipsum quidem minima est.
+                </p>
+                <a href="maisuma.html">Leia mais</a>
+            </article>
+        </section>
+        <!--nomear por class quando a tag aparece em mais de um lugar (usado mais de uma vez)-->
+        <section class="atividades maior">
+            <h2 id="av">Atividades
+                <a href="#topo"> &uarr; </a>
+            </h2>
+            <article>
+                <h3>First Contact¹: lógica, especificações, implementação, testes</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ipsum nihil harum ipsam enim nostrum molestias sunt dolores incidunt ratione, laudantium quibusdam quam tenetur, quia, rerum assumenda voluptate asperiores praesentium!
+                </p>
+                <a href="https://profmarciotorres.github.io/atividade.html?dbo-2018/atividade/avaliada/1.md" target="_blank">Leia mais...</a>
+            </article>
+            <article>
+                <h3>Logic + User Interface: funções, DOM, inputs, outputs, eventos</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim deserunt soluta saepe nulla consequatur voluptatum in autem culpa obcaecati quibusdam consequuntur laborum, a quae fuga quia adipisci earum. Nemo, voluptas.
+                </p>
+                <a href="https://profmarciotorres.github.io/atividade.html?dbo-2018/atividade/avaliada/2.md" target="_blank">Leia mais...</a>
+            </article>
+        </section>
+    </main>
+    <aside> <!--Conteudo lateral-->
+
+    </aside>
+    <footer> <!--Rodapé-->
+        <section class="atividades menor">
+            <h2>Atividades:</h2>
+            <a
+            href="https://profmarciotorres.github.io/atividade.html?dbo-2018/atividade/avaliada/1.md">#1</a>
+            <a
+            href="https://profmarciotorres.github.io/atividade.html?dbo-2018/atividade/avaliada/2.md">#2</a>
+        </section>
+    </footer>
+
+</body>
+</html>
