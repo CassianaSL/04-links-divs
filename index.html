@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Links e Divisões</title>
+    <!--CSS-->
+    <style>
+        h1{ /* seletor (todos h1) */
+            background-color:dimgray;
+            font-family: 'Arial';
+        }
+        section h2 { /*h2 dentro de section*/
+            text-transform: uppercase;
+            text-decoration: underline;
+            margin-top: 2em;
+        }
+        section.menor { /*'.' para class '#' para id*/
+            background-color:olive;
+            font-size: 1em;
+        }
+        h3 {
+            margin-top: 3em;
+            /*rgb: min= 0 max= 255 0,255
+            red: 0,255
+            green: 0,255
+            blue: 0,255
+            */
+            color: rgb(200, 0, 200);
+        }
+    </style>
+    <!--rel=link RELativo a folha de estilo-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--<div id="header"></div>
@@ -12,9 +39,14 @@
     <div id="footer"></div>-->
     <!--tag+id= tg#id <tag id="">-->
     <header id="topo"> <!--Cabeçalho-->
-        <h1>DBO site!!</h1> <!--nome do cabeçalho-->
+        <!--style-CSS in-line, no codigo html
+        (NÃO FAÇA)^^^-->
+        <h1 style="color:darkred; font-size:3em">DBO site!!</h1> <!--nome do cabeçalho-->
         <nav> <!--links-->
-            <a href="#av">Atividades</a> <!--#av procura na pag a tag com o id, quando clicar ele vai para essa parte do codigo-->
+            <a href="#av" class="botao">
+                Atividades
+            </a>
+            <!--#av procura na pag a tag com o id, quando clicar ele vai para essa parte do codigo-->
         </nav>
     </header>
     <main> <!--Conteudo principal, não é necessário mais de um main-->

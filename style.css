@@ -1,0 +1,21 @@
+a.botao {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    /*margin= fora da tag / padding=dentro da tag*/
+    padding-top: 0.5em; /*padding tamanho do botão*/
+    padding-bottom: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-style: solid; /*borda*/
+    border-width: 2px; /*tamanho da borda*/
+    border-color: gray;
+    border-radius: 10px; /*borda arredondada*/
+    box-shadow: 3px 3px grey; /*sombra*/
+}
+a.botao:hover { /*quando o mouse estiver em cima do botão*/
+    background-color: forestgreen; /*muda a cor*/
+    cursor:crosshair; /*muda o tipo de cursor*/
+}
